@@ -34,7 +34,6 @@ x = res[:,0]
 y = res[:,1]
 z = res[:,2]
 
-'''
 
 #Gráfico tridimencional
 
@@ -60,7 +59,7 @@ ax[2].set_title('Plano de fase y-z')
 
 plt.show()
 #plt.savefig('atrator_2d.jpg')
-'''
+
 fig = plt.figure()
 axis = plt.axes(xlim=(-50, 50), ylim=(-50, 50))
 
