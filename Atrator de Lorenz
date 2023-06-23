@@ -1,4 +1,5 @@
-#BIBLIOTECAS
+'''BIBLIOTECAS'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -6,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import streamlit as st
 from scipy.integrate import odeint
 
-# DEFININDO O ESTADO DO SISTEMA INICIAL (x, y, z)
+'''DEFININDO O ESTADO DO SISTEMA INICIAL (x, y, z)'''
 
 estado_inicial = [0.1, 0.0, 0.0]
 
